@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +40,25 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Tailwind CSS
+.tailwind*
+
+# PostCSS
+postcss.config.js
+postcss.config.cjs
+postcss.config.mjs
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Log files
+*.log
