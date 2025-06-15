@@ -1,22 +1,10 @@
-import { FlatCompat } from "@eslint/eslintrc"
-import { dirname } from "path"
-import { fileURLToPath } from "url"
+import { defineConfig } from "eslint-define-config"
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
+export default defineConfig({
+  extends: ["next/core-web-vitals"],
+  rules: {
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "react/no-unescaped-entities": "off"
+  }
 })
-
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
-  {
-    rules: {
-      "@typescript-eslint/no-require-imports": "off",
-      "@typescript-eslint/no-unused-vars": "warn",
-    },
-  },
-]
-
-export default eslintConfig
