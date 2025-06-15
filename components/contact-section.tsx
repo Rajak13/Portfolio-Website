@@ -32,20 +32,20 @@ export function ContactSection() {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      content: "rajak13@outlook.com",
-      link: "mailto:rajak13@outlook.com"
+      content: "rajak833@gmail.com",
+      link: "mailto:rajak833@gmail.com"
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      content: "+44 7515 123456",
-      link: "tel:+447515123456"
+      content: "+977 9828310498",
+      link: "tel:+977982831049"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Location",
-      content: "London, United Kingdom",
-      link: "https://maps.google.com/?q=London,UK"
+      content: "Dharan, Nepal",
+      link: "https://maps.google.com/?q=Dharan,Nepal"
     }
   ]
 
