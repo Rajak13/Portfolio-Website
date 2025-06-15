@@ -99,7 +99,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📧 Contact
 
 For any questions or suggestions, feel free to reach out:
-- Email: rajak13@outlook.com
+- Email: rajak833@gmail.com
 - GitHub: [@Rajak13](https://github.com/Rajak13)
 
 ---
