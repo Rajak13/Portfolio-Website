@@ -38,8 +38,8 @@ export function ContactSection() {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      content: "+977 9828310498",
-      link: "tel:+977982831049"
+      content: "+977 9827310498",
+      link: "tel:+9779827310498"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
